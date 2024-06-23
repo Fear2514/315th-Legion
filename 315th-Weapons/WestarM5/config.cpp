@@ -157,6 +157,7 @@ class CfgWeapons
 	class Aux315_Westar: Aux315_Westar_Base
 	{
 		displayName="[315th] Westar-M5";
+		cursor="DC_Series_Reticle";
 		scope=2;
 		model="3AS\3AS_Weapons\WestarM5\3AS_Westar_M5_F.p3d";
 		picture="\3AS\3AS_Weapons\DC15A\Data\Textures\DC15A_Arsenal.paa";

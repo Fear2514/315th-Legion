@@ -177,6 +177,7 @@ class CfgWeapons
 	{
 		scope=2;
 		displayName="[315th] Valken-38X";
+		cursor="Marksman_Reticle";
 		model="3AS\3AS_Weapons\Valken38X\3AS_Valken38X.p3d";
 		picture="\3AS\3AS_Weapons\Valken38X\Data\UI\3as_valken.paa";
 		weaponInfoType="RscWeaponZeroing";

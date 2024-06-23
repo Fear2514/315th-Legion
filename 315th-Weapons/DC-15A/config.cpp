@@ -20,6 +20,7 @@ class CfgWeapons
 		displayName="[315th] DC-15A (plastic stock)";
 		scope=2;
         scopeArsenal=2;
+		cursor="DC_Series_Reticle";
         muzzles[]=
 		{
 			"this",
@@ -146,6 +147,7 @@ class CfgWeapons
         displayName="[315th] DC-15A (wood stock)";
 		scope=2;
         scopeArsenal=2;
+		cursor="DC_Series_Reticle";
         muzzles[]=
 		{
 			"this",

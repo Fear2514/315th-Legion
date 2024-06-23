@@ -65,19 +65,19 @@ class Cfgweapons
 				class Chest
 				{
 					HitpointName="HitChest";
-					armor=6;
+					armor=20;
 					PassThrough=0.30000001;
 				};
 				class Legs
 				{
 					hitpointName="HitLegs";
-					armor=6;
+					armor=20;
 					passThrough=0.30000001;
 				};
 				class Arms
 				{
 					hitpointName="HitArms";
-					armor=4;
+					armor=18;
 					passThrough=0.30000001;
 				};
 			};
@@ -110,19 +110,19 @@ class Cfgweapons
 				class Chest
 				{
 					HitpointName="HitChest";
-					armor=6;
+					armor=20;
 					PassThrough=0.30000001;
 				};
 				class Legs
 				{
 					hitpointName="HitLegs";
-					armor=6;
+					armor=20;
 					passThrough=0.30000001;
 				};
 				class Arms
 				{
 					hitpointName="HitArms";
-					armor=4;
+					armor=18;
 					passThrough=0.30000001;
 				};
 			};
@@ -158,19 +158,19 @@ class Cfgweapons
 				class Chest
 				{
 					HitpointName="HitChest";
-					armor=6;
+					armor=20;
 					PassThrough=0.30000001;
 				};
 				class Legs
 				{
 					hitpointName="HitLegs";
-					armor=6;
+					armor=20;
 					passThrough=0.30000001;
 				};
 				class Arms
 				{
 					hitpointName="HitArms";
-					armor=4;
+					armor=18;
 					passThrough=0.30000001;
 				};
 			};
@@ -203,19 +203,19 @@ class Cfgweapons
 				class Chest
 				{
 					HitpointName="HitChest";
-					armor=6;
+					armor=20;
 					PassThrough=0.30000001;
 				};
 				class Legs
 				{
 					hitpointName="HitLegs";
-					armor=6;
+					armor=20;
 					passThrough=0.30000001;
 				};
 				class Arms
 				{
 					hitpointName="HitArms";
-					armor=4;
+					armor=18;
 					passThrough=0.30000001;
 				};
 			};
@@ -250,19 +250,19 @@ class Cfgweapons
 				class Chest
 				{
 					HitpointName="HitChest";
-					armor=6;
+					armor=20;
 					PassThrough=0.30000001;
 				};
 				class Legs
 				{
 					hitpointName="HitLegs";
-					armor=6;
+					armor=20;
 					passThrough=0.30000001;
 				};
 				class Arms
 				{
 					hitpointName="HitArms";
-					armor=4;
+					armor=18;
 					passThrough=0.30000001;
 				};
 			};
@@ -297,19 +297,19 @@ class Cfgweapons
 				class Chest
 				{
 					HitpointName="HitChest";
-					armor=6;
+					armor=20;
 					PassThrough=0.30000001;
 				};
 				class Legs
 				{
 					hitpointName="HitLegs";
-					armor=6;
+					armor=20;
 					passThrough=0.30000001;
 				};
 				class Arms
 				{
 					hitpointName="HitArms";
-					armor=4;
+					armor=18;
 					passThrough=0.30000001;
 				};
 			};
@@ -345,19 +345,19 @@ class 315th_CC_V : JLTS_CloneVestOfficer
 				class Chest
 				{
 					HitpointName="HitChest";
-					armor=6;
+					armor=20;
 					PassThrough=0.30000001;
 				};
 				class Legs
 				{
 					hitpointName="HitLegs";
-					armor=6;
+					armor=20;
 					passThrough=0.30000001;
 				};
 				class Arms
 				{
 					hitpointName="HitArms";
-					armor=4;
+					armor=18;
 					passThrough=0.30000001;
 				};
 			};
@@ -393,19 +393,19 @@ class 315th_CC_V : JLTS_CloneVestOfficer
 				class Chest
 				{
 					HitpointName="HitChest";
-					armor=6;
+					armor=20;
 					PassThrough=0.30000001;
 				};
 				class Legs
 				{
 					hitpointName="HitLegs";
-					armor=6;
+					armor=20;
 					passThrough=0.30000001;
 				};
 				class Arms
 				{
 					hitpointName="HitArms";
-					armor=4;
+					armor=18;
 					passThrough=0.30000001;
 				};
 			};
@@ -441,19 +441,19 @@ class 315th_CC_V : JLTS_CloneVestOfficer
 				class Chest
 				{
 					HitpointName="HitChest";
-					armor=6;
+					armor=20;
 					PassThrough=0.30000001;
 				};
 				class Legs
 				{
 					hitpointName="HitLegs";
-					armor=6;
+					armor=20;
 					passThrough=0.30000001;
 				};
 				class Arms
 				{
 					hitpointName="HitArms";
-					armor=4;
+					armor=18;
 					passThrough=0.30000001;
 				};
 			};
@@ -488,19 +488,19 @@ class 315th_CC_V : JLTS_CloneVestOfficer
 				class Chest
 				{
 					HitpointName="HitChest";
-					armor=6;
+					armor=20;
 					PassThrough=0.30000001;
 				};
 				class Legs
 				{
 					hitpointName="HitLegs";
-					armor=6;
+					armor=20;
 					passThrough=0.30000001;
 				};
 				class Arms
 				{
 					hitpointName="HitArms";
-					armor=4;
+					armor=18;
 					passThrough=0.30000001;
 				};
 			};
@@ -524,19 +524,19 @@ class 315th_CC_V : JLTS_CloneVestOfficer
 				class Chest
 				{
 					HitpointName="HitChest";
-					armor=6;
+					armor=20;
 					PassThrough=0.30000001;
 				};
 				class Legs
 				{
 					hitpointName="HitLegs";
-					armor=6;
+					armor=20;
 					passThrough=0.30000001;
 				};
 				class Arms
 				{
 					hitpointName="HitArms";
-					armor=4;
+					armor=18;
 					passThrough=0.30000001;
 				};
 			};

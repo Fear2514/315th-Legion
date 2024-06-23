@@ -47,6 +47,7 @@ class CfgVehicles
 	class 315th_medic_backpack: 315th_trooper_backpack
 	{
 		displayName="[315th] Clone Medical Backpack";
+		maximumLoad=550;
 		hiddenSelectionsTextures[]=
 		{
 			"\MRC\JLTS\characters\CloneArmor\data\Clone_backpack_medic_co.paa"
@@ -71,6 +72,7 @@ class CfgVehicles
 	class 315th_eod_backpack: 315th_trooper_backpack
 	{
 		displayName="[315th] Clone EOD Backpack";
+		maximumLoad=500;
 		hiddenSelectionsTextures[]=
 		{
 			"\MRC\JLTS\characters\CloneArmor\data\Clone_backpack_eod_co.paa"

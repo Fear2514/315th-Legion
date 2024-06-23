@@ -22,6 +22,7 @@ class CfgWeapons
 	class 315th_JLTS_DC15A_ugl_plastic: JLTS_DC15A_ugl_plastic
 	{
 		displayName="[315th] DC-15A UGL (plastic stock)";
+		cursor="DC_Series_Reticle";
 		scope=2;
 		modes[]=
 		{

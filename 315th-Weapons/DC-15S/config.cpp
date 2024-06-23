@@ -22,6 +22,7 @@ class CfgWeapons
 	class JLTS_DC15S_315: JLTS_DC15S
 	{
 		displayName="[315th] DC-15S";
+        cursor="DC_Series_Reticle";
 		scope=2;
 		picture="\MRC\JLTS\weapons\DC15S\data\ui\DC15S_ui_ca.paa";
 		model="\MRC\JLTS\weapons\DC15S\DC15S.p3d";

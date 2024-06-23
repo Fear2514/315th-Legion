@@ -19,6 +19,7 @@ class CfgWeapons
 	class 315th_Z6: JLTS_Z6
 	{
 		displayName="[315th] Z6";
+		cursor="DC_Series_Reticle";
 		scope = 2;
 		baseweapon="315th_Z6";
 		magazines[]=

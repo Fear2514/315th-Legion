@@ -336,6 +336,15 @@ class CfgWeapons
 		class ItemInfo : ItemInfo
 		{
 			uniformClass = "315th_EOD";
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=8;
+					passThrough=0.5;
+				};
+			};
 		};
 	};
 		class 315th_NCO_uniform: JLTS_CloneArmor
@@ -585,6 +594,7 @@ class CfgVehicles
 		displayName = "[315th] Clone EOD";
 		uniformClass = "315th_trooper_uniform";
 		backpack = "315th_trooper_backpack";
+		armor=2;
 		hiddenSelectionsTextures[] =
 		{
 			"\315th-Core\textures\base\uniform\315_base_EOD_upper.paa",

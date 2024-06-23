@@ -19,6 +19,7 @@ class CfgWeapons
 	class 315thAUX_DP23: JLTS_DP23
 	{
 		displayName="[315th] DP-23";
+		cursor="Shotgun_Reticle";
 		picture="\MRC\JLTS\weapons\DP23\data\ui\DP23_ui_ca.paa";
 		model="\MRC\JLTS\weapons\DP23\DP23.p3d";
 		scope=2;
