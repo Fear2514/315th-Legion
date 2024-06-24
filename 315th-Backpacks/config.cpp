@@ -41,7 +41,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\MRC\JLTS\characters\CloneArmor\data\Clone_backpack_co.paa"
+			"315th-Backpacks\textures\backpacks\backpack_315th.paa"
 		};
 	};
 	class 315th_medic_backpack: 315th_trooper_backpack
@@ -50,7 +50,7 @@ class CfgVehicles
 		maximumLoad=550;
 		hiddenSelectionsTextures[]=
 		{
-			"\MRC\JLTS\characters\CloneArmor\data\Clone_backpack_medic_co.paa"
+			"315th-Backpacks\textures\backpacks\backpack_medic_315th.paa"
 		};
 	};
 	class 315th_MRTO_backpack: 315th_trooper_backpack
@@ -60,7 +60,7 @@ class CfgVehicles
 		model="\MRC\JLTS\characters\CloneArmor\CloneBackpackRTO.p3d";
 		hiddenSelectionsTextures[]=
 		{
-			"\MRC\JLTS\characters\CloneArmor\data\Clone_backpack_medic_co.paa"
+			"315th-Backpacks\textures\backpacks\backpack_medic_315th.paa"
 		};
 		tf_dialog="JLTS_clone_rto_radio_dialog";
 		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
@@ -75,7 +75,7 @@ class CfgVehicles
 		maximumLoad=500;
 		hiddenSelectionsTextures[]=
 		{
-			"\MRC\JLTS\characters\CloneArmor\data\Clone_backpack_eod_co.paa"
+			"315th-Backpacks\textures\backpacks\backpack_eod_315th.paa"
 		};
 	};
 	class 315th_RTO_backpack: 315th_trooper_backpack
@@ -85,7 +85,7 @@ class CfgVehicles
 		model="\MRC\JLTS\characters\CloneArmor\CloneBackpackRTO.p3d";
 		hiddenSelectionsTextures[]=
 		{
-			"\MRC\JLTS\characters\CloneArmor\data\Clone_backpack_co.paa"
+			"315th-Backpacks\textures\backpacks\backpack_315th.paa"
 		};
 		tf_dialog="JLTS_clone_rto_radio_dialog";
 		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
@@ -101,7 +101,7 @@ class CfgVehicles
 		model="\MRC\JLTS\characters\CloneArmor\CloneBackpackRTO.p3d";
 		hiddenSelectionsTextures[]=
 		{
-			"\MRC\JLTS\characters\CloneArmor\data\Clone_backpack_co.paa"
+			"315th-Backpacks\textures\backpacks\backpack_315th.paa"
 		};
 		tf_dialog="JLTS_clone_rto_radio_dialog";
 		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
@@ -139,7 +139,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\MRC\JLTS\characters\CloneArmor\data\Clone_RTO_pack_co.paa"
+			"315th-Backpacks\textures\backpacks\backpack_rtomini_315th.paa"
 		};
 		maximumload=0;
 		tf_dialog="JLTS_clone_lr_programmer_radio_dialog";
