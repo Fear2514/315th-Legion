@@ -72,32 +72,17 @@ class RscDisplayMain: RscStandardDisplay
 		class B_Credits
 		{
 		};
-		class ConnectServer1: RscButton
+		class ConnectServer: RscButton
 		{
 			idc=-1;
-			text="Join 315th Main Server";
+			text="Join 315th Server";
 			style=2;
-			onbuttonclick="connectToServer ['144.48.104.130', 2306, '315th']";
+			onbuttonclick="connectToServer ['104.223.101.68', 2330, '315th']";
 			colorBackground[]={0,0,0,0.69999999};
 			colorBackgroundActive[]={1,0,0,0,2};
 			borderSize=0.054000001;
 			colorBorder[]={0,0,0,0};
 			x="safeZoneX + safeZoneW - 0.6";
-			y="safeZoneY + 0.2 * safeZoneH";
-			w="0.25";
-			h="0.05";
-		};
-		class ConnectServer2: RscButton
-		{
-			idc=-1;
-			text="Join 315th Training Server";
-			style=2;
-			onbuttonclick="connectToServer ['104.223.101.68', 2330, '315th']";
-			colorBackground[]={0,0,0,0.69999999};
-			colorBackgroundActive[]={1,0,0,0,2};
-			borderSize=0.055;
-			colorBorder[]={0,0,0,0};
-			x="safeZoneX + 0.2 * safeZoneW";
 			y="safeZoneY + 0.2 * safeZoneH";
 			w="0.25";
 			h="0.05";
