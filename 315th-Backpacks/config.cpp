@@ -57,6 +57,7 @@ class CfgVehicles
 	{
 		picture="\315thAUX-main\logo.paa";
 		displayName="[315th] Clone Medical Long Range Backpack";
+		maximumLoad=550;
 		model="\MRC\JLTS\characters\CloneArmor\CloneBackpackRTO.p3d";
 		hiddenSelectionsTextures[]=
 		{
