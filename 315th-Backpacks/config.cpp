@@ -133,7 +133,6 @@ class CfgVehicles
 		scope=2
 		picture="\315AUX-main\logo.paa";
 		displayName="[315th] Clone Mini Long Range Pack";
-		maximumLoad=200;
 		model="\MRC\JLTS\characters\CloneArmor\CloneRTOPack.p3d";
 		hiddenSelections[]=
 		{
@@ -143,7 +142,7 @@ class CfgVehicles
 		{
 			"315th-Backpacks\textures\backpacks\backpack_rtomini_315th.paa"
 		};
-		maximumload=0;
+		maximumload=200;
 		tf_dialog="JLTS_clone_lr_programmer_radio_dialog";
 		tf_dialogUpdate="call TFAR_fnc_updateLRDialogToChannel;";
 		tf_encryptionCode="tf_west_radio_code";
