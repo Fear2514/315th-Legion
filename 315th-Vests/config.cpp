@@ -23,7 +23,6 @@ class CfgPatches
 	};
 	author="315th Aux Mod Team";
 };
-
 class Cfgweapons
 {
 	class JLTS_CloneVestOfficer;
@@ -288,7 +287,7 @@ class Cfgweapons
 				"camo2"
 			};
 			mass=80;
-class HitpointsProtectionInfo
+			class HitpointsProtectionInfo
 			{
 				class Diaphragm
 				{
@@ -495,7 +494,7 @@ class HitpointsProtectionInfo
 			};
 		};
 	};
-class 315th_CC_V : JLTS_CloneVestOfficer
+	class 315th_CC_V : JLTS_CloneVestOfficer
 	{
 		author="315th Aux Mod Team";
 		scope=2;
