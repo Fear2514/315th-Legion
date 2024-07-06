@@ -133,6 +133,7 @@ class CfgVehicles
 		scope=2
 		picture="\315AUX-main\logo.paa";
 		displayName="[315th] Clone Mini Long Range Pack";
+		maximumLoad=200;
 		model="\MRC\JLTS\characters\CloneArmor\CloneRTOPack.p3d";
 		hiddenSelections[]=
 		{
