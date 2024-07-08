@@ -18,6 +18,7 @@ class CfgPatches
 			"315th_recruit",
 			"315th_cadet",
 			"315th_eod",
+			"315th_2_1_unit",
 		};
 		weapons[]=
 		{
@@ -33,7 +34,8 @@ class CfgPatches
 			"315th_cadet_uniform",
 			"315th_medic_uniform",
 			"315th_EOD_uniform",
-			"315th_NCO_uniform"
+			"315th_NCO_uniform",
+			"315th_2_1_uniform"
 		};
 	};
 };
@@ -329,6 +331,15 @@ class CfgWeapons
 			uniformClass = "315th_medic";
 		};
 	};
+	class 315th_2_1_uniform : 315th_trooper_uniform
+	{
+		scope = 2;
+		displayName = "[315th] Bandit 2-1 Uniform";
+		class ItemInfo : ItemInfo
+		{
+			uniformClass = "315th_2_1_unit";
+		};
+	};
 	class 315th_EOD_uniform : 315th_trooper_uniform
 	{
 		scope = 2;
@@ -347,7 +358,7 @@ class CfgWeapons
 			};
 		};
 	};
-		class 315th_NCO_uniform: JLTS_CloneArmor
+	class 315th_NCO_uniform: JLTS_CloneArmor
 	{
 		scope=2;
 		displayName="[315th] NCO Uniform";
@@ -417,6 +428,112 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"\315th-Core\textures\base\uniform\315_base_upper.paa",
+			"\315th-Core\textures\base\uniform\315_base_lower.paa",
+		};
+		linkedItems[]=
+		{
+			"315th_trooper_helmet",
+			"ItemMap",
+			"ItemCompass",
+			"ItemWatch",
+			"JLTS_clone_comlink"
+		};
+		respawnLinkedItems[]=
+		{
+			"315th_trooper_helmet",
+			"ItemMap",
+			"ItemCompass",
+			"ItemWatch",
+			"JLTS_clone_comlink"
+		};
+		weapons[]=
+		{
+			"JLTS_DC15A_plastic",
+			"JLTS_DC17SA",
+			"Throw",
+			"Put"
+		};
+		respawnWeapons[]=
+		{
+			"JLTS_DC15A_plastic",
+			"JLTS_DC17SA",
+			"Throw",
+			"Put"
+		};
+		nakedUniform="JLTS_CloneNaked_uniform";
+		magazines[]=
+		{
+			"JLTS_DC15A_mag",
+			"JLTS_DC15A_mag",
+			"JLTS_DC15A_mag",
+			"JLTS_DC15A_mag",
+			"JLTS_DC15A_mag",
+			"JLTS_DC15A_mag",
+			"JLTS_DC15A_mag",
+			"JLTS_DC15A_mag",
+			"JLTS_DC15A_mag",
+			"JLTS_DC15A_mag",
+			"JLTS_DC17SA_mag",
+			"JLTS_DC17SA_mag",
+			"JLTS_DC17SA_mag",
+			"SmokeShell",
+			"SmokeShellGreen",
+			"Chemlight_green",
+			"Chemlight_green",
+			"JLTS_stun_mag_long",
+			"JLTS_stun_mag_long",
+			"HandGrenade",
+			"HandGrenade"
+		};
+		respawnMagazines[]=
+		{
+			"JLTS_DC15A_mag",
+			"JLTS_DC15A_mag",
+			"JLTS_DC15A_mag",
+			"JLTS_DC15A_mag",
+			"JLTS_DC15A_mag",
+			"JLTS_DC15A_mag",
+			"JLTS_DC15A_mag",
+			"JLTS_DC15A_mag",
+			"JLTS_DC15A_mag",
+			"JLTS_DC15A_mag",
+			"JLTS_DC17SA_mag",
+			"JLTS_DC17SA_mag",
+			"JLTS_DC17SA_mag",
+			"SmokeShell",
+			"SmokeShellGreen",
+			"Chemlight_green",
+			"Chemlight_green",
+			"JLTS_stun_mag_long",
+			"JLTS_stun_mag_long",
+			"HandGrenade",
+			"HandGrenade"
+		};
+		items[]=
+		{
+			"FirstAidKit"
+		};
+		respawnItems[]=
+		{
+			"FirstAidKit"
+		};
+		
+	};
+	class 315th_2_1_unit: JLTS_Clone_P2_DC15A
+	{
+		author="315th AUX Team";
+		scope=2;
+		side= 1;
+		scopeCurator = 2;
+		displayName="[315th] Bandit 2-1 Trooper";
+		editorPreview="\MRC\JLTS\characters\CloneArmor\data\ui\editorPreviews\JLTS_Clone_P2_DC15A.jpg";
+		faction="315th_Main";
+		editorSubcategory="315th_inf";
+        backpack="315th_trooper_backpack";
+		uniformClass="315th_2_1_uniform";
+		hiddenSelectionsTextures[]=
+		{
+			"\315th-Core\textures\base\uniform\315_base_2_1_upper.paa",
 			"\315th-Core\textures\base\uniform\315_base_lower.paa",
 		};
 		linkedItems[]=
