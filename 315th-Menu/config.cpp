@@ -77,7 +77,7 @@ class RscDisplayMain: RscStandardDisplay
 			idc=-1;
 			text="Join 315th Server";
 			style=2;
-			onbuttonclick="connectToServer ['104.223.101.68', 2330, '315th']";
+			onbuttonclick="connectToServer ['nae-ogs4.armahosts.com', 2512, '315th']";
 			colorBackground[]={0,0,0,0.69999999};
 			colorBackgroundActive[]={1,0,0,0,2};
 			borderSize=0.054000001;
