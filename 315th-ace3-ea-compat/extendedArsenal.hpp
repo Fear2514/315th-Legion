@@ -111,7 +111,7 @@ class XtdGearModels {
             label = "REP Backpacks";
             class backpack {
                 label = "Backpack";
-                values[] = {"Trooper", "EOD", "Medic", "ARC", "RTO", "Belt Bag", "AT"};
+                values[] = {"Trooper", "Anti-Tank", "EOD", "Medic", "ARC", "RTO", "Belt Bag"};
             };
             class type {
                 label = "Type";
@@ -128,7 +128,6 @@ class XtdGearModels {
         };
     };
 };
-
 class XtdGearInfos {
     class CfgWeapons {
         /**
