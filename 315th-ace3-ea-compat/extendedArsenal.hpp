@@ -111,7 +111,7 @@ class XtdGearModels {
             label = "REP Backpacks";
             class backpack {
                 label = "Backpack";
-                values[] = {"Trooper", "EOD", "Medic", "ARC", "RTO", "Belt Bag"};
+                values[] = {"Trooper", "EOD", "Medic", "ARC", "RTO", "Belt Bag", "AT"};
             };
             class type {
                 label = "Type";
@@ -372,6 +372,10 @@ class XtdGearInfos {
             backpack = "ARC";
             type = "Normal";
         };
+	class 315th_AT_backpack {
+            model = "315th_REP_Backpacks";
+            backpack = "AT";
+            type = "Normal";
         // CIS
         class 315_CIS_B1_backpack {
             model = "315th_CIS_Backpacks";
