@@ -20,7 +20,8 @@ class CfgPatches
 			"315th_ARC_backpack",
 			"315th_belt_bag",
 			"315th_RTO_pack",
-			"315th_MRTO_backpack"
+			"315th_MRTO_backpack",
+			"315th_AT_backpack"
 		};
 	};
 };
@@ -34,6 +35,23 @@ class CfgVehicles
 		scope=2
 		picture="\315thAUX-main\logo.paa";
 		displayName="[315th] Clone Trooper Backpack";
+		model="\MRC\JLTS\characters\CloneArmor\CloneBackpack.p3d";
+		hiddenSelections[]=
+		{
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"315th-Backpacks\textures\backpacks\backpack_315th.paa"
+		};
+	};
+	class 315th_AT_backpack: B_Kitbag_rgr
+	{
+		author="315th Aux Mod team";
+		scope=2
+		picture="\315thAUX-main\logo.paa";
+		displayName="[315th] Clone Trooper Anti-Tank Backpack";
+		maximumLoad=550;
 		model="\MRC\JLTS\characters\CloneArmor\CloneBackpack.p3d";
 		hiddenSelections[]=
 		{
