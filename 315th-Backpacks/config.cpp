@@ -45,7 +45,7 @@ class CfgVehicles
 			"315th-Backpacks\textures\backpacks\backpack_315th.paa"
 		};
 	};
-	class 315th_AT_backpack: B_Kitbag_rgr
+	class 315th_AT_backpack: 315th_trooper_backpack
 	{
 		author="315th Aux Mod team";
 		scope=2
